@@ -1,0 +1,123 @@
+
+  
+  .form_page_body,
+  html {
+    padding: 50px 0;
+    background-image: linear-gradient(80deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
+    background-size: cover;
+    width: auto;
+    height: auto;
+
+  }
+  
+  .form-container {
+    width: auto;
+    height: auto;
+    background: #fff;
+    padding: 30px;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: rgba(3, 3, 3, 0.1) 10px 0px 50px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .form-container__details {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .form-container__title {
+    font-size: 38px;
+    color: #555;
+    margin-bottom: 7px;
+  }
+  
+  .form-container__subtitle {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  .form__field {
+    margin-bottom: 30px;
+  }
+  
+  .form__label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+  }
+  
+  .form__input {
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .form__submit {
+    background: #037ef3;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 0;
+    transition: all 0.8s;
+    font-size: 18px;
+  }
+  
+  .form__submit:hover {
+    background: #0271da;
+  }
+  
+  .form-container__line-divider {
+    background: #037ef3;
+    width: 30px;
+    height: 3px;
+    border-radius: 50px;
+    margin: 30px auto;
+  }
+  .form__viewall {
+    background: #037ef3;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 0;
+    transition: all 0.8s;
+    font-size: 18px;
+  }
+  .form-container__links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-container__link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+  }
+  
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 30px 25px;
+      width: 90%;
+    }
+    .form__input,
+    .form__submit {
+      padding: 18px 15px;
+    }
+  }
+  
